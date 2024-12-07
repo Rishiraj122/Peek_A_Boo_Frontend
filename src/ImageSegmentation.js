@@ -18,7 +18,7 @@ function ImageSegmentation() {
       const formData = new FormData();
       formData.append('image', file);
 
-      const response = await fetch('http://localhost:5000/segment', {
+      const response = await fetch('https://peak-a-boo.onrender.com/segment', {
         method: 'POST',
         body: formData
       });

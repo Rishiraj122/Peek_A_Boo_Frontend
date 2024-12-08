@@ -9,6 +9,6 @@
       { "src": "/(.*)", "dest": "/build/$1" }
     ],
     "env": {
-      "REACT_APP_API_URL": "your-railway-backend-url"
+      "REACT_APP_API_URL": "https://peak-a-boo.onrender.com/"
     }
   }
